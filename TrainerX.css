@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+#brand {
+    font-size: 24px;
+}
+
+#home {
+    background-image:url(../img/landing.jpg);
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: white;
+}
+  
+.dark-overlay {
+    padding: 20px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.jumbotron {
+    background-image: url(img/jumbotron.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 15vh;
+    
+}
+
+.card-form {
+    opacity: 0.8;
+}
+
+#check{
+    background: white;
+    padding: 4px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.container {
+    padding: 0;
+}
+
+p,h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 0;
+}
+
+button{ 
+
+    transition: transform 80ms ease-in;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+

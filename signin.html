@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+    <link rel="stylesheet" href="/signin.css" />
+
+
+    <title>TrainerX - Find a trainer near you!</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top bg-secondary">
+        
+            <a href="trainerx.html" class="navbar-brand" id="brand">TrainerX</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trainerxNavBar">     
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="trainerxNavBar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="TrainerX.html"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Xplore.html"><i class="fa fa-bicycle fa-lg"></i> Xplore
+                            Trainers</a>
+                    </li>
+
+                    <li class="nav-item active" id="loginButton">
+                        <a class="nav-link" href="#"><i class="fa fa-sign-in fa-lg"></i> Login</a>
+                    </li>
+                </ul>
+            </div>          
+        
+    </nav>
+    <div id="star">
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fa fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fa fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your account</span>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <a href="#">Forgot your password?</a>
+                    <button>Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>To keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Enter your personal details and start journey with us</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="trainerx.js"></script>
+
+</body>
+</html>
